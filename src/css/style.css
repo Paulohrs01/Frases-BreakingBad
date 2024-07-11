@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'MinhaFontePersonalizada';
+    src: url(../font/breaking_bad/BREAKING\ BAD.ttf);
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    background-image: url(../images/bb.png);
+    position: relative;
+    max-height: 100vh;
+}
+
+.breakingBad {
+    display: flex;
+    justify-content: center;
+    font-family: 'MinhaFontePersonalizada', sans-serif;
+    color: #000000;
+    margin: 30px 0px 80px;
+    font-size: 110px;
+}
+
+.img-meta {
+    position: absolute;
+    left: 19%;
+    top: 23%;
+}
+
+.img-meta img {
+    width: 220px;
+    height: 130px;
+    opacity: 0.1;
+    filter: invert(1);
+}
+
+.walter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-tabela {
+    position: absolute;
+    top: 53%;
+    z-index: 1;
+}
+
+.img-tabela img {
+    width: 850px;
+    height: 400px;
+    opacity: 0.03;
+}
+
+.card-jesse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-jesse-color);
+    border-radius: 7px;
+    margin: 20px;
+    width: 450px;
+    position: relative;
+    padding-bottom: 40px;
+    z-index: 1000;
+}
+
+.card-jesse .quote-container {
+    margin: 10px;
+    color: var(--heisenberg-color);
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.card-jesse .quote {
+    color: var(--heisenberg-color);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-jesse .author {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-jesse .button-heisenberg {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 8%;
+    border: 1px solid #008cff;
+    background-color: #FFFFFF;
+    transform: translateY(50%);
+}
+
+.card-jesse .button-heisenberg img {
+    width: 50px;
+    height: 50px;
+}
+
+.card-jesse .button-heisenberg:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #008cff;
+}
+
+.font-icon {
+    display: flex;
+    justify-content: center;
+    font-family: 'MinhaFontePersonalizada', sans-serif;
+    color: #000000;
+    font-size: 90px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.font-icon p {
+    padding: 35px;
+}
