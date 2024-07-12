@@ -1,58 +1,63 @@
 @media (max-width: 900px) {
 
     .img-meta {
-        left: 5%;
-        top: 22%;
+        left: 0%;
+        top: 30%;
+    }
+    
+    .img-meta img {
+        width: 200px;
+        height: 110px;
+        opacity: 0.1;
+        filter: invert(1);
     }
 
     .img-tabela {
-        top: 60%;
+        bottom: 120px;
     }
 
-    .img-tabela img {
-        width: 750px;
-        height: 440px;
-    }
+   }
 
-}
 
 @media (max-width: 450px) {
 
     .breakingBad {
-        margin: 30px 0px 40px;
+        margin: 50px 0px 40px;
         font-size: 70px;
     }
 
     .img-meta {
-        left: 1%;
-        top: 12%;
+        left: 2%;
+        top: 22%;
     }
 
     .img-meta img {
-        width: 120px;
-        height: 90px;
+        width: 100px;
+        height: 75px;
     }
 
-    .img-tabela {
-        top: 58%;
-    }
-
-    .img-tabela img {
-        width: 380px;
-        height: 240px;
-        opacity: 0.07;
+    .walter {
+        margin-bottom: 70px;
     }
 
     .card-jesse {
-        border-radius: 7px;
         margin: 0px;
-        width: 310px;
-        padding-bottom: 15px;
+        width: 300px;
+        padding-bottom: 25px;
+    }
+
+    .card-jesse .quote-container {
+        padding-bottom: 30px;
+    }
+
+    .card-jesse .quote {
+        font-size: 19px;
     }
 
     .card-jesse .button-heisenberg {
         width: 50px;
         height: 50px;
+        margin-bottom: 10px;
     }
 
     .card-jesse .button-heisenberg img {
@@ -60,13 +65,33 @@
         height: 40px;
     }
 
+    .img-tabela {
+        right: 0;
+        bottom: 0;
+    }
+
+    .img-tabela img {
+        width: 320px;
+        height: 230px;
+        filter: contrast(4);
+    }
+
+    .rodape {
+        height: 80px;
+        padding: 5px;
+    }
+
     .font-icon {
-        margin-top: 30px;
-        padding-top: 15px;
-        font-size: 60px;
+        font-size: 30px;
+    }
+
+    .font-icon span {
+        font-size: 17px;
     }
 
     .font-icon p {
-        padding: 20px;
+        padding: 10px;
+        margin: 0px;
     }
+
 }
